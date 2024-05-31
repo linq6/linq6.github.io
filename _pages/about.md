@@ -17,9 +17,10 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
 Hello, I am a 6-th year Ph.D. candidate at economics department of Vanderbilt University. My research interests lie on spatial economics, urban economics, and macroeconomics.
 
-I am on the job market during the 2023-2024 academic year. 
+I am on the job market during the 2023-2024 academic year.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

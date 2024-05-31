@@ -13,6 +13,7 @@ nav_order: 3
 {% bibliography %}
 
 {% for publication in site.scholar.publications %}
+
   <div>
     <h3>{{ publication.title }}</h3>
     <p>Author: {{ publication.author }}</p>
