@@ -184,7 +184,11 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
-
+  .profile-picture {
+    width: 100px; // Change this to your desired width
+    height: auto; // Maintain aspect ratio, or set a specific height if needed
+    border-radius: 50%; // If you want a circular image, optional
+  }
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -1000,6 +1004,12 @@ progress::-moz-progress-bar {
       color: var(--global-hover-text-color);
     }
   }
+}
+
+.custom-profile-picture {
+  width: 150px;  // Change to your desired width
+  height: auto; // Maintain aspect ratio
+  border-radius: 50%; // Optional: makes the image circular if needed
 }
 
 /* Table of Contents */

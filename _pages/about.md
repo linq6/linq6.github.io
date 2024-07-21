@@ -2,16 +2,17 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>qiaohairuo.lin@vanderbilt.edu</a>
+# subtitle: <a href='#'>qiaohairuo.lin@vanderbilt.edu</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: photo1.jpeg
+  image_class: custom-profile-picture
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>006B Calhoun Hall</p>
-    <p>2201 West End Ave</p>
-    <p>Nashville, Tennessee, 37212</p>
+  # more_info: >
+  #   # <p>006B Calhoun Hall</p>
+  #   # <p>2201 West End Ave</p>
+  #   # <p>Nashville, Tennessee, 37212</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
