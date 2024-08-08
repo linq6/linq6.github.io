@@ -9,7 +9,6 @@ nav_order: 3
 <!-- _pages/publications.md -->
 
 <div class="publications">
-
   <!-- Publications List -->
   <section class="publications-list">
     {% bibliography %}
@@ -17,7 +16,6 @@ nav_order: 3
       <div class="publication-item">
         <h3>{{ publication.title }}</h3>
         <p>Debug: {{ publication | inspect }}</p>
-
         <p><strong>Author:</strong> {{ publication.author }}</p>
         <p><strong>Year:</strong> {{ publication.year }}</p>
         <p><strong>Year:</strong> {{ publication.year }}</p>
@@ -27,7 +25,6 @@ nav_order: 3
         {% endif %}
       </div>
     {% endfor %}
-
   </section>
 </div>
 
@@ -40,11 +37,11 @@ nav_order: 3
     margin-bottom: 20px;
   }
   .publications-list {
-    border-top: 1px solid #ddd;
+    border-top: none; /* Remove the top border */
   }
   .publication-item {
     padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    border-bottom: none; /* Remove the bottom border */
   }
   .btn {
     display: inline-block;
@@ -52,11 +49,13 @@ nav_order: 3
     font-size: 1rem;
     border-radius: 0.25rem;
     text-align: center;
-    color: #fff;
-    background-color: #007bff;
+    color: #007bff; /* Set text color to blue */
+    background-color: transparent; /* Set background to transparent */
     text-decoration: none;
+    border: 2px solid #007bff; /* Optional: Add a border to maintain button appearance */
   }
   .btn:hover {
-    background-color: #0056b3;
+    background-color: transparent; /* Ensure background stays transparent on hover */
+    color: #0056b3; /* Optional: Change text color on hover */
   }
 </style>
