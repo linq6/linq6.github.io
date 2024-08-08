@@ -1,12 +1,18 @@
 <header>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>
+    {{ page.title }}
+    |
+    {{ site.title }}
+  </title>
 
   <!-- Preload CSS to ensure it loads early -->
-  <link rel="preload"
+  <link
+    rel="preload"
     href="{{ '/assets/css/main.css' | relative_url }}"
-    as="style">
+    as="style"
+  >
 
   <!-- Link to the main stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
@@ -15,7 +21,8 @@
   <nav
     id="navbar"
     class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
-    role="navigation">
+    role="navigation"
+  >
     <div class="container">
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
         {% if site.title == 'blank' %}
@@ -43,7 +50,8 @@
         data-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
-        aria-label="Toggle navigation">
+        aria-label="Toggle navigation"
+      >
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
@@ -87,7 +95,8 @@
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
-                    aria-expanded="false">
+                    aria-expanded="false"
+                  >
                     {{- p.title }}
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
@@ -110,7 +119,8 @@
                   {% if p.permalink contains '/blog/' %}
                     {% assign url = '/blog/' %}
                   {% else %}
-                    {% assign url = p.url %}{% endif %}
+                    {% assign url = p.url -%}
+                  {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
@@ -127,8 +137,10 @@
               <button
                 id="search-toggle"
                 title="Search"
-                onclick="openSearchModal()">
-                <span class="nav-link">ctrl k
+                onclick="openSearchModal()"
+              >
+                <span class="nav-link"
+                  >ctrl k
                   <i class="ti ti-search"></i>
                 </span>
               </button>
