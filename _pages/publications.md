@@ -10,12 +10,6 @@ nav_order: 3
 
 <div class="publications">
 
-  <!-- Custom Introduction -->
-  <section class="introduction">
-    <h2>Welcome to My Research Page</h2>
-    <p>Here you can find a list of my publications, categorized by year and type of research.</p>
-  </section>
-
   <!-- Publications List -->
   <section class="publications-list">
     {% bibliography %}
