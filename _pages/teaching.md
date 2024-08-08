@@ -6,11 +6,6 @@ description:
 nav: true
 nav_order: 6
 ---
-
-# Teaching Experience
-
-## Vanderbilt University
-
 ### TA for Ph.D. Courses
 
 - Macroeconomics Theory (2024)
@@ -30,5 +25,4 @@ nav_order: 6
 ### Independent Instructor
 
 - Summer Math Camp for Graduate Program in Economic Development (GPED) (2023, 2024)
-
 [Download Lecture Notes](https://linq6.github.io/assets/pdf/KKT.pdf)
