@@ -26,4 +26,5 @@ nav_order: 6
 ### Independent Instructor
 
 - Summer Math Camp for Graduate Program in Economic Development (GPED) (2023, 2024)
-  [Download Lecture Notes](https://linq6.github.io/assets/pdf/KKT.pdf)
+  [Lecture Notes used in 2023](https://linq6.github.io/assets/pdf/KKT.pdf)
+  [Lecture Notes used in 2024](https://linq6.github.io/assets/pdf/Session1.pdf)
