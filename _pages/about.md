@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hello, I am a 6-th year Ph.D. candidate at economics department of Vanderbilt University. My research interests lie on spatial economics, urban economics, and macroeconomics.
+Hello, I am a 6-th year Ph.D. candidate at economics department of Vanderbilt University. My research interests include urban economics, public economics, macroeconomics, and economics geography. 
 
 I am on the job market during the 2023-2024 academic year. Please find my CV [here](/assets/pdf/CV_academics.pdf).
 
