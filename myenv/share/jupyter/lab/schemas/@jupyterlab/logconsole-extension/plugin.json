@@ -21,9 +21,7 @@
         ]
       }
     ],
-    "context": [
-      { "command": "logconsole:open", "selector": ".jp-Notebook", "rank": 60 }
-    ]
+    "context": [{ "command": "logconsole:open", "selector": ".jp-Notebook", "rank": 60 }]
   },
   "title": "Log Console",
   "description": "Log Console settings.",

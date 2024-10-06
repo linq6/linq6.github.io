@@ -76,14 +76,7 @@
       "properties": {
         "mode": {
           "type": "string",
-          "enum": [
-            "split-top",
-            "split-left",
-            "split-right",
-            "split-bottom",
-            "tab-before",
-            "tab-after"
-          ]
+          "enum": ["split-top", "split-left", "split-right", "split-bottom", "tab-before", "tab-after"]
         },
         "rank": { "type": "number", "minimum": 0 },
         "ref": {
