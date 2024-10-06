@@ -76,9 +76,7 @@
         {
           "test": {},
           "include": [],
-          "use": [
-            "source-map-loader"
-          ],
+          "use": ["source-map-loader"],
           "enforce": "pre"
         }
       ]
@@ -134,10 +132,7 @@
         "_options": {
           "library": {
             "type": "var",
-            "name": [
-              "_JUPYTERLAB",
-              "CORE_LIBRARY_FEDERATION"
-            ]
+            "name": ["_JUPYTERLAB", "CORE_LIBRARY_FEDERATION"]
           },
           "name": "CORE_FEDERATION",
           "shared": {
@@ -643,10 +638,7 @@
     ],
     "mode": "development",
     "entry": {
-      "main": [
-        "./publicpath",
-        "/home/runner/work/jupyterlab/jupyterlab/.jupyter_releaser_checkout/jupyterlab/staging/build/bootstrap.js"
-      ]
+      "main": ["./publicpath", "/home/runner/work/jupyterlab/jupyterlab/.jupyter_releaser_checkout/jupyterlab/staging/build/bootstrap.js"]
     },
     "optimization": {
       "splitChunks": {
@@ -660,9 +652,7 @@
       }
     },
     "devtool": "inline-source-map",
-    "externals": [
-      "ws"
-    ]
+    "externals": ["ws"]
   },
   {
     "mode": "production",
